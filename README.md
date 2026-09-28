@@ -1,4 +1,4 @@
-# Minh họa AES và RSA
+# Cài đặt và minh họa AES và RSA
 
 Bài tập môn **An toàn và bảo mật thông tin**. Chương trình Python nhận văn bản từ bàn phím, mã hóa và giải mã bằng AES-256-GCM, dùng RSA-OAEP để bảo vệ khóa AES, rồi đo thời gian xử lý của hai thuật toán.
 
@@ -19,7 +19,10 @@ Nếu dùng phiên bản Python khác, thay `py -3.14` bằng lệnh gọi đún
 2. Chương trình in **nonce** và **bản mã kèm thẻ xác thực** dưới dạng Base64, rồi in nội dung sau giải mã.
 3. Chương trình dùng RSA-OAEP mã hóa khóa AES; giải mã khóa và dùng khóa đó khôi phục thông điệp.
 4. Chương trình in thời gian trung bình (µs/lần) của mã hóa và giải mã AES-GCM, RSA-OAEP.
+---
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/bef8a5a8-e484-4cff-8acd-0a46aacebb67" />
 
+---
 Phần đo thời gian dùng một mẫu **32 byte riêng**, không dùng văn bản đã nhập; không tính thời gian sinh cặp khóa RSA. Kết quả phụ thuộc vào máy chạy và môi trường Python.
 
 ## Vai trò các thuật toán
